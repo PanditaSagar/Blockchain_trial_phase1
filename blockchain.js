@@ -131,9 +131,9 @@ Blockchain.prototype.getAddressData = function(address){
     };
 };
 
-Blockchain.prototype.getAccount = function(account){
-    
-}
+// Blockchain.prototype.getAccount = function(account){
+
+// }
 
 
 module.exports = Blockchain;
