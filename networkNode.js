@@ -166,6 +166,7 @@ app.post('/register-nodes-bulk',function(req,res){
     res.json({note: 'Bulk registration successful.'})
 })
 
+//This is used by the newest block that wishes to enter the longest valid chain.
 app.get('/consensus',function(req,res){
     const requestPromises =[];
     bitcoin.networkNodes.forEach(networkNodeUrl => {
